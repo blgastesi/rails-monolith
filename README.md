@@ -1,10 +1,12 @@
 # Test Rails monolith tools
 
-## Device ✅
+## [Device](https://github.com/blgastesi/rails-monolith/pull/1) ✅ 
 
-- User model with devise.
+- User model with devise. 
 
-## Administrate
+## [Administrate](https://github.com/blgastesi/rails-monolith/pull/2) ✅ 
+
+- Admin dashboard
 
 ## Redis
 
