@@ -14,8 +14,8 @@
 
 ## [Pundit](https://github.com/blgastesi/rails-monolith/pull/4) ✅
 
-## Redis
-
 - Authorization
+
+## Redis
 
 ## Hotwire
