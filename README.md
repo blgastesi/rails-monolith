@@ -8,6 +8,10 @@
 
 - Admin dashboard
 
+## Rubocop
+
+## Pundit
+
 ## Redis
 
 ## Hotwire
