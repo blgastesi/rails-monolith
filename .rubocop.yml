@@ -120,3 +120,15 @@ Style/SlicingWithRange:
 
 Style/StringConcatenation:
   Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - db/schema.rb
+    - config/environments/*
+  Max: 50
+
+Rails/FilePath:
+  Enabled: false

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # All Administrate controllers inherit from this
 # `Administrate::ApplicationController`, making it the ideal place to put
 # authentication logic or other before_actions.
@@ -8,7 +10,7 @@ module Admin
   class ApplicationController < Administrate::ApplicationController
     before_action :authenticate_user!
     before_action :authenticate_admin
-    
+
     def authenticate_admin
       redirect_to root_path, alert: 'Not authorized.' unless current_user.admin?
     end
