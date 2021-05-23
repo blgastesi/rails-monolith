@@ -2,6 +2,8 @@
 
 ## Device ✅
 
+- User model with devise.
+
 ## Administrate
 
 ## Redis
