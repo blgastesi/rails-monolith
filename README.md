@@ -1,3 +1,9 @@
 # Test Rails monolith tools
 
-## Device
+## Device ✅
+
+## Administrate
+
+## Redis
+
+## Hotwire
