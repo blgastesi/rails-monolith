@@ -8,7 +8,9 @@
 
 - Admin dashboard
 
-## Rubocop
+## [Rubocop](https://github.com/blgastesi/rails-monolith/pull/3) ✅ 
+
+- Rails best practices
 
 ## Pundit
 
