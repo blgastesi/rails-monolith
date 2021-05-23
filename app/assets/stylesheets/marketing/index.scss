@@ -1,0 +1,9 @@
+@import 'components/navbar';
+
+.marketing { 
+  @include gradient-background;
+  min-height: 100vh;
+  padding: 60px 30px;
+  display: flex;
+  justify-content: center;
+}

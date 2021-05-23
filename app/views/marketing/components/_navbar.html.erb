@@ -1,0 +1,12 @@
+<div class="navbar">
+  <div>
+  </div>
+  <div>
+    <% if user_signed_in? %>
+      <%= link_to "Logout", destroy_user_session_url, method: 'Delete', class: 'navbarLink' %>
+    <% else %>
+      <%= link_to "Sign in", sign_in_url, class: 'navbarLink' %>
+      <%= link_to "Sign up", sign_up_url, class: 'navbarLink' %>
+    <% end %>
+  </div>
+</div>

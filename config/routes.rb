@@ -3,9 +3,15 @@
 Rails.application.routes.draw do
   namespace :admin do
     resources :users
-
     root to: 'users#index'
   end
+
+  devise_scope :user do
+    get 'sign_in', to: 'devise/sessions#new'
+    get 'sign_up', to: 'devise/registrations#new'
+    get 'password_recovery', to: 'devise/passwords#new'
+  end
+
   devise_for :users
-  root to: 'home#index'
+  root to: 'marketing#index'
 end

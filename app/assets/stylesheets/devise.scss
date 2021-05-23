@@ -1,0 +1,11 @@
+/*
+ *= require_self
+*/
+
+@import 'common/index';
+@import 'devise/index.scss';
+
+body { 
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}

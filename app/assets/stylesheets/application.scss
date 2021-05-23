@@ -1,0 +1,11 @@
+/*
+ *= require_self
+ *= require_tree ./application
+*/
+
+@import 'common/index';
+
+body { 
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}

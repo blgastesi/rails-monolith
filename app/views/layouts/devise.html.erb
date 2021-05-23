@@ -6,11 +6,14 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'devise', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'devise', 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900' %>    
   </head>
 
   <body>
-    <%= yield %>
+    <div class="deviseContent">
+      <%= yield %>
+    </div>
   </body>
 </html>

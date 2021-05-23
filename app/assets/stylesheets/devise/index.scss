@@ -1,0 +1,66 @@
+@import 'sign_in';
+
+.deviseContent { 
+  @include gradient-background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .logBox {
+    background-color: $brand-dark;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #828594;
+    overflow: hidden;
+
+    a { 
+      color: #828594;
+      text-decoration: none;
+    }
+
+    form { 
+      width: 100%;
+    }
+
+    .field { 
+      input { 
+        box-sizing: border-box;
+        background-color: #33364a;
+        height: 35px;
+        padding: 0 20px;
+        border: none;
+        width: 100%;
+        margin: 10px 0;
+        font-size: 14px;
+        color: $white;
+        outline: none;
+      }
+    }
+
+    .submitButton { 
+      border: none;
+      outline: none;
+      height: 40px;
+      margin-top: 20px;
+      width: 100%;
+      background-color: $brand-primary;
+      color: $white;
+      text-transform: uppercase;
+    }
+
+    .deviceLinks { 
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}
