@@ -16,6 +16,10 @@
 
 - Authorization
 
+## [Custom action on Administrate dashboard](https://github.com/blgastesi/rails-monolith/pull/5) ✅
+
+- Add custom action on Administrate
+
 ## Redis
 
 ## Hotwire
