@@ -7,4 +7,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   enum role: { member: 0, admin: 1 }
+
+  def active_for_authentication? 
+    super && approved? 
+  end 
 end
